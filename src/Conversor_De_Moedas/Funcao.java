@@ -8,7 +8,7 @@ public class Funcao {
 	
 	MaquinaDeConverter moedas = new MaquinaDeConverter();
 
-public void converterMoedas(double valorRecebido) {
+	public void converterMoedas(double valorRecebido) {
 	
 	String opcao = JOptionPane.showInputDialog(null, 
 			"Insira a moeda a qual deseja converter", "Moedas",
@@ -60,9 +60,8 @@ public void converterMoedas(double valorRecebido) {
       case "De pesos chilenos para reais":
           moedas.transformaPesosChilenosEmReal(valorRecebido);
           break;
-		 }
+    
+		}
 		
-		
-		
-     }		
+	 }		
  }

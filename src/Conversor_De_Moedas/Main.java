@@ -19,12 +19,13 @@ public class Main {
 		funcao.converterMoedas(valorRecebido);
 		int resposta = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
 		if (resposta == JOptionPane.OK_CANCEL_OPTION) {
-			System.out.println("Escolha a opção afirmativa");
+			System.out.println("Programa finalizado!");
+			JOptionPane.showMessageDialog(null, funcao, "Progama finalizado", resposta);
 			
 		}else if (resposta == JOptionPane.YES_OPTION) { 
 			main(args);
 		
-		}else if (resposta == JOptionPane.CANCEL_OPTION) {
+		}else if (resposta == JOptionPane.NO_OPTION) {
 			JOptionPane.showMessageDialog(null, "Programa finalizado");
 			
 		}
