@@ -10,13 +10,11 @@ public class Funcao {
 
 public void converterMoedas(double valorRecebido) {
 	
-
-	
-	
-		
-	String opcao = (String) JOptionPane.showInputDialog(null, "Insira a moeda a qual deseja converter", "Moedas",
-	JOptionPane.PLAIN_MESSAGE, null, new Object[] {"De reais para dolar"," De reais para euros, De reais para libras", "De reais para pesos argentinos","De reais para pesos chilenos",
-						"De dolar para reais"	,"De euros para reais","De libras para reais","De pesos argentinos para reais","De pesos chilenos para reais"}, 
+	String opcao = JOptionPane.showInputDialog(null, 
+			"Insira a moeda a qual deseja converter", "Moedas",
+	JOptionPane.PLAIN_MESSAGE, null, 
+	new Object[] {"De reais para dolares","De reais para euros","De reais para libras","De reais para pesos argentinos","De reais para pesos chilenos",
+						"De dolares para reais","De euros para reais","De libras para reais","De pesos argentinos para reais","De pesos chilenos para reais"}, 
     "Escolha"
 	
 	).toString();
@@ -29,7 +27,7 @@ public void converterMoedas(double valorRecebido) {
        case "De reais para euros":
 	   moedas.transformaRealEmEuro(valorRecebido);
 	   break;
-	   
+
        case "De reais para libras":
     	   moedas.transformaRealEmLibras(valorRecebido);
     	   break;
@@ -39,11 +37,32 @@ public void converterMoedas(double valorRecebido) {
     	   break;
     	   
        case "De reais para pesos chilenos":
-    	   moedas.transformaRealEmPesosChlienos(valorRecebido);
+    	   moedas.transformaRealEmPesosChilenos(valorRecebido);
     	   break;
-	   }
+	  
+      case "De dolares para reais":
+    	  	moedas.transformaDolarEmReal(valorRecebido);
+      		break;
+		
+      
+      case "De euros para reais":
+          moedas.transformaEurosEmReal(valorRecebido);
+          break;
+          
+      case "De libras para reais":
+          moedas.transformaLibrasEmReal(valorRecebido);
+          break;
+          
+      case "De pesos argentinos para reais":
+          moedas.transformaPesosArgentinosEmReal(valorRecebido);
+          break;
+          
+      case "De pesos chilenos para reais":
+          moedas.transformaPesosChilenosEmReal(valorRecebido);
+          break;
+		 }
 		
 		
 		
-}		
-}
+     }		
+ }
