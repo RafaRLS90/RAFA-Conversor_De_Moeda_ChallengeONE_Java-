@@ -4,18 +4,11 @@ import javax.swing.*;
 
 public class MaquinaDeConverter {
 	
-	//private void metodoNull (double valor) {
-	//	if (valor == null) {
-		//	throw new NullPointerException("Valor Inválido!!!");
-		//}
-//	}
-	
-	
 	public void transformaRealEmDolar (double valor) {
 		double moedaDolar = valor / 5.25;
 		moedaDolar = (double) Math.round(moedaDolar * 100d) / 100;
 		JOptionPane.showMessageDialog(null,"Você tem " + moedaDolar + " dolares", null, 0);
-	}
+    }
 	
 	public void transformaRealEmEuro (double valor) {
 		double moedaEuro = valor / 5.66;

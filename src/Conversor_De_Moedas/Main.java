@@ -9,13 +9,14 @@ public class Main {
 		
 		String input = JOptionPane.showInputDialog("Insira um valor...");
 		
+		
+		
 		Funcao funcao = new Funcao();
 		
 		switch (opcoes) {
 		case "Conversor de moedas":
 		double valorRecebido = Double.parseDouble(input);
-		
-		
+
 		funcao.converterMoedas(valorRecebido);
 		int resposta = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
 		if (resposta == JOptionPane.OK_CANCEL_OPTION) {
