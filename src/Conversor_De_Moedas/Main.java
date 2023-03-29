@@ -7,9 +7,17 @@ public class Main {
 	public static void main(String[] args) {
 		String opcoes = JOptionPane.showInputDialog(null, "Bem vindo, escolha uma opção", "Menu Principal", JOptionPane.QUESTION_MESSAGE, null, new Object[] {"Conversor de moedas", "Conversor de temperatura"}, "Escolha").toString();
 		
+	
 		String input = JOptionPane.showInputDialog("Insira um valor...");
+		//if(valor != null) {
+		//	try {
+		//	 valor = null;
+		//		} catch(NumberFormatException ex) {
+		//			JOptionPane.showMessageDialog(null, "Insira um valor válido....");
+		//		}
 		
-		
+			
+	//	}	
 		
 		Funcao funcao = new Funcao();
 		
@@ -32,8 +40,14 @@ public class Main {
 		}
 		break;
 		}
+
 		
 
 	}
+
+//	private static Object readJavaFormatString(String input) {
+		// TODO Auto-generated method stub
+	//	return null;
+//	}
 
 }

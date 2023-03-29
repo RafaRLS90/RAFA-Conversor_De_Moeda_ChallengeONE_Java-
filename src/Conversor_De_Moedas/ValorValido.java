@@ -1,5 +1,5 @@
 package Conversor_De_Moedas;
 
-public class SaidaDeValores {
+public class ValorValido {
 	double moeda_convertida;
 }
