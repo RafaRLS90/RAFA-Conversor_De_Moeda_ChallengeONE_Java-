@@ -27,7 +27,7 @@
 ## Escolha de moeda!!!
 ![tela inicial](./images/inserir_moeda.png)
 
-## Valor que deseja converter
+## Para qual moeda, deseja converter
 ![tela inicial](./images/options_inserir.png)
 ## Mensagem com valor convertido...
 ![tela inicial](./images/resultado_conversao.png)
