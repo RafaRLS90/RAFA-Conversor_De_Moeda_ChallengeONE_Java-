@@ -22,7 +22,7 @@
 
 ![tela inicial](./images/tela_inicial_conversor.png)
 
-# Fotos em breve do projeto
+# Imagens em breve do projeto
 
 Tela Inicial
 Escolha de moeda
