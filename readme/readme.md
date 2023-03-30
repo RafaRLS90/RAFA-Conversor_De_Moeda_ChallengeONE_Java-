@@ -22,3 +22,11 @@
 
 ![tela inicial](./images/tela_inicial_conversor.png)
 
+# Fotos em breve do projeto
+
+Tela Inicial
+Escolha de moeda
+Valor que deseja converter
+Mensagem cm valor convertido
+Mensagem final, com opção de realizar novo cálculo no programa
+Mensagem de erro, quanto a campo vazio de valor, ou entrada de caracter não permitido.
