@@ -20,5 +20,5 @@
 
 ## Uma aplicação JAVA direcionada a conversão de moedas, com comandos simples, e interface de fácil entendimento.
 
-![tela inicial](/images/tela_inicial_conversor.png)
+![tela inicial](./images/tela_inicial_conversor.png)
 
