@@ -20,13 +20,18 @@
 
 ## Uma aplicação JAVA direcionada a conversão de moedas, com comandos simples, e interface de fácil entendimento.
 
+
+## Tela Inicial
 ![tela inicial](./images/tela_inicial_conversor.png)
 
-# Imagens em breve do projeto
+# Escolha de moeda
+![tela inicial](./images/inserir_moeda.png)
 
-Tela Inicial
-Escolha de moeda
-Valor que deseja converter
-Mensagem cm valor convertido
-Mensagem final, com opção de realizar novo cálculo no programa
-Mensagem de erro, quanto a campo vazio de valor, ou entrada de caracter não permitido.
+## Valor que deseja converter
+![tela inicial](./images/options_inserir.png)
+## Mensagem com valor convertido...
+![tela inicial](./images/resultado_conversao.png)
+## Mensagem final, com opção de realizar novo cálculo no programa
+![tela inicial](./images/return_cancel.png)
+## Mensagem de erro, quanto a campo vazio de valor, ou entrada de caracter não permitido.
+![tela inicial](./images/insira_vazio_conversor.png)
