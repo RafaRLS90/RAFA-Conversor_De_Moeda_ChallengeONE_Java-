@@ -34,4 +34,4 @@
 ## Mensagem final, com opção de realizar novo cálculo no programa
 ![tela inicial](./images/return_cancel.png)
 ## Mensagem de erro, quanto a campo vazio de valor, ou entrada de caracter não permitido.
-![tela inicial](./images/insira_vazio_conversor.png)
+![tela inicial](./images/input_invalido.png)
