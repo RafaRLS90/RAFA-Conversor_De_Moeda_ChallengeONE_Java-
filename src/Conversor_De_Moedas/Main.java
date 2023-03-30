@@ -1,6 +1,8 @@
 package Conversor_De_Moedas;
 
 import javax.swing.*;
+import java.text.NumberFormat;
+import java.text.DecimalFormat;
 
 public class Main {
 
@@ -8,22 +10,22 @@ public class Main {
 		String opcoes = JOptionPane.showInputDialog(null, "Bem vindo, escolha uma opção", "Menu Principal", JOptionPane.QUESTION_MESSAGE, null, new Object[] {"Conversor de moedas", "Conversor de temperatura"}, "Escolha").toString();
 		
 	
-		String input = JOptionPane.showInputDialog("Insira um valor...");
-		//if(valor != null) {
-		//	try {
-		//	 valor = null;
-		//		} catch(NumberFormatException ex) {
-		//			JOptionPane.showMessageDialog(null, "Insira um valor válido....");
-		//		}
-		
+		String inputValid = JOptionPane.showInputDialog("Insira um valor...");
+		ValorValido valorOK = new ValorValido();
+		while (!valorOK.valorNumerico(inputValid) && inputValid != null ) {
 			
-	//	}	
+			 inputValid = JOptionPane.showInputDialog(null, "Insira um valor válido....",0);
+			if(inputValid == null) {
+			break;
+			}
+		}
+
 		
 		Funcao funcao = new Funcao();
 		
 		switch (opcoes) {
 		case "Conversor de moedas":
-		double valorRecebido = Double.parseDouble(input);
+		double valorRecebido = Double.parseDouble(inputValid);
 
 		funcao.converterMoedas(valorRecebido);
 		int resposta = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
